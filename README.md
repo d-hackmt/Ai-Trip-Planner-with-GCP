@@ -1,3 +1,8 @@
+THIS PROJECT WAS cloned Data-guru 
+https://github.com/data-guru0/AI-TRAVEL-ITINEARY-PLANNER
+
+We are making this because the code is outdated and langchain has new way of creating agents
+
 ### 1. Initial Setup
 
 - **Push code to GitHub**  
@@ -35,9 +40,9 @@
 - **Clone your GitHub repo**
 
   ```bash
-  git clone https://github.com/data-guru0/TESTING-9.git
+  git clone https://github.com/d-hackmt/Ai-Trip-Planner-with-GCP.git
   ls
-  cd TESTING-9
+  cd Ai-Trip-Planner-with-GCP
   ls  # You should see the contents of your project
   ```
 
