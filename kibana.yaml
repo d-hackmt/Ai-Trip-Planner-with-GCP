@@ -27,7 +27,6 @@ spec:
               value: "false"
           ports:
             - containerPort: 5601
-
 ---
 apiVersion: v1
 kind: Service
