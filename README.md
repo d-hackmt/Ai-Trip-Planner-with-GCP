@@ -2,6 +2,7 @@ THIS PROJECT WAS cloned Data-guru
 https://github.com/data-guru0/AI-TRAVEL-ITINEARY-PLANNER
 
 We are making this because the code is outdated and langchain has new way of creating agents
++ we have added a new functionalitites
 
 ---
 
