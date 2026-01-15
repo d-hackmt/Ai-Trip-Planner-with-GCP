@@ -163,7 +163,10 @@ eval $(minikube docker-env)
 docker build -t streamlit-app:latest .
 
 kubectl create secret generic llmops-secrets \
-  --from-literal=GROQ_API_KEY="" 
+  --from-literal=GROQ_API_KEY="" \
+  --from-literal=TAVILY_API_KEY="" \
+  --from-literal=SERPER_API_KEY=""
+
 
 kubectl apply -f k8s-deployment.yaml
 
