@@ -15,16 +15,12 @@ spec:
     spec:
       containers:
         - name: kibana
-          image: docker.elastic.co/kibana/kibana:8.11.1
-          ports:
-            - containerPort: 5601
+          image: docker.elastic.co/kibana/kibana:7.17.0
           env:
             - name: ELASTICSEARCH_HOSTS
               value: http://elasticsearch:9200
-            - name: ELASTICSEARCH_USERNAME
-              value: kibana_system
-            - name: ELASTICSEARCH_PASSWORD
-              value: "<KIBANA_SYSTEM_PASSWORD>"
+          ports:
+            - containerPort: 5601
 ---
 apiVersion: v1
 kind: Service
@@ -37,5 +33,4 @@ spec:
     app: kibana
   ports:
     - port: 5601
-      targetPort: 5601
       nodePort: 30601
